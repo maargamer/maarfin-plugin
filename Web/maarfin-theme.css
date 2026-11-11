@@ -1,0 +1,93 @@
+html.maarfin-theme-enabled body {
+  background-color: #090b12;
+}
+
+html.maarfin-theme-enabled .skinHeader,
+html.maarfin-theme-enabled .skinHeader-withBackground {
+  border-bottom: 1px solid rgb(255 255 255 / 8%);
+  background-color: rgb(9 11 18 / 82%);
+  box-shadow: 0 8px 32px rgb(0 0 0 / 18%);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+html.maarfin-theme-enabled .emby-tabs {
+  border-bottom-color: rgb(255 255 255 / 10%);
+}
+
+html.maarfin-theme-enabled .emby-tab-button-active {
+  color: #b7caff;
+}
+
+html.maarfin-theme-enabled .emby-tab-button-active::after {
+  border-radius: 999px;
+  background: linear-gradient(90deg, #1677ff, #d832c5);
+}
+
+html.maarfin-theme-enabled .cardBox {
+  border-radius: 14px;
+  transition: transform 180ms ease, filter 180ms ease;
+}
+
+html.maarfin-theme-enabled .cardBox:hover {
+  transform: translateY(-3px);
+  filter: drop-shadow(0 12px 20px rgb(0 0 0 / 28%));
+}
+
+html.maarfin-theme-enabled .cardImageContainer,
+html.maarfin-theme-enabled .cardContent {
+  border-radius: 12px;
+}
+
+html.maarfin-theme-enabled .cardImageContainer {
+  box-shadow: 0 8px 20px rgb(0 0 0 / 22%);
+}
+
+html.maarfin-theme-enabled .sectionTitle {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+html.maarfin-theme-enabled .emby-input,
+html.maarfin-theme-enabled .emby-textarea,
+html.maarfin-theme-enabled .emby-select {
+  border-color: rgb(255 255 255 / 16%);
+  border-radius: 10px;
+  background-color: rgb(255 255 255 / 5%);
+}
+
+html.maarfin-theme-enabled .emby-input:focus,
+html.maarfin-theme-enabled .emby-textarea:focus,
+html.maarfin-theme-enabled .emby-select:focus {
+  border-color: #568dff;
+  box-shadow: 0 0 0 3px rgb(63 116 255 / 18%);
+}
+
+html.maarfin-theme-enabled .emby-button.raised,
+html.maarfin-theme-enabled .emby-button.emby-button-raised {
+  border-radius: 999px;
+}
+
+html.maarfin-theme-enabled .emby-button.button-submit,
+html.maarfin-theme-enabled .emby-button.emby-button-accent {
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(100deg, #1677ff, #704dff 55%, #c733c8);
+  color: #fff;
+}
+
+html.maarfin-theme-enabled .emby-button:focus-visible,
+html.maarfin-theme-enabled .cardBox:focus-visible,
+html.maarfin-theme-enabled a:focus-visible {
+  outline: 2px solid #8daeff;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.maarfin-theme-enabled *,
+  html.maarfin-theme-enabled *::before,
+  html.maarfin-theme-enabled *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
