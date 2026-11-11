@@ -27,6 +27,14 @@ The plugin assembly is created at `bin\Release\net9.0\MyJellyfinPlugin.dll`.
 3. Copy `MyJellyfinPlugin.dll` into that folder.
 4. Start Jellyfin Server and hard-refresh Jellyfin Web.
 
+## Add as a Jellyfin plugin repository
+
+The public manifest is:
+
+`https://raw.githubusercontent.com/maargamer/maarfin-plugin/main/manifest.json`
+
+In Jellyfin, open **Dashboard → Plugins → Repositories**, add the manifest URL, save, then install Maarfin from the catalog. Restart Jellyfin and hard-refresh Jellyfin Web after installing.
+
 ## Development
 
 After changing the code or web assets, rebuild the plugin, replace the DLL in the plugins folder, restart Jellyfin, and hard-refresh the browser.

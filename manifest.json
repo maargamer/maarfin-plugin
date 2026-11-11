@@ -1,0 +1,21 @@
+[
+  {
+    "guid": "18d46ab3-d9f4-44c4-8004-257404b8c0ef",
+    "name": "Maarfin",
+    "description": "A customizable theme and media home page for Jellyfin Web.",
+    "overview": "Bring a cinematic Maarfin look to Jellyfin Web with a custom theme, hero artwork, Continue Watching, and Freshly Added shelves.",
+    "owner": "maargamer",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/maargamer/maarfin-plugin/main/Web/logo.png",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial catalog release with a custom Jellyfin Web theme and Maarfin media page.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/maargamer/maarfin-plugin/releases/download/v1.0.0.0/Maarfin_1.0.0.0.zip",
+        "checksum": "CHECKSUM_TO_BE_REPLACED",
+        "timestamp": "2026-11-11T00:00:00Z"
+      }
+    ]
+  }
+]

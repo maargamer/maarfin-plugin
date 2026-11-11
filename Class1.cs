@@ -16,6 +16,7 @@ public sealed class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
     }
 
     public override string Name => "Maarfin";
+    public override Guid Id => Guid.Parse("18d46ab3-d9f4-44c4-8004-257404b8c0ef");
 
     public IEnumerable<PluginPageInfo> GetPages()
     {
